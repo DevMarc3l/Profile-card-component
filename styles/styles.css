@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+  background: url(../images/bg-pattern-top.svg) no-repeat -10vw -30vw, url(../images/bg-pattern-bottom.svg) no-repeat 60vw 60vh, #19a2ae;
+  background-size: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #2d3248;
+}
+
+.card {
+  width: 90%;
+  max-width: 350px;
+  border-radius: 15px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 13px 16.3px rgba(0, 0, 0, 0.027), 0 21.9px 23.2px rgba(0, 0, 0, 0.037), 0 37.6px 29.1px rgba(0, 0, 0, 0.045), 0 100px 38px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 13px 16.3px rgba(0, 0, 0, 0.027), 0 21.9px 23.2px rgba(0, 0, 0, 0.037), 0 37.6px 29.1px rgba(0, 0, 0, 0.045), 0 100px 38px rgba(0, 0, 0, 0.05);
+}
+
+.card__bg {
+  min-height: 7em;
+  background: url(../images/bg-pattern-card.svg) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.card__avatar {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 50%);
+          transform: translate(-50%, 50%);
+  z-index: 1;
+  border: 6px solid white;
+  border-radius: 50%;
+}
+
+.card__name {
+  margin-top: 0.8em;
+}
+
+.card__age {
+  display: inline-block;
+  font-weight: 400;
+  color: #6a6f81;
+  padding-left: 0.2em;
+}
+
+.card__content {
+  padding: 4.25em 0 1.5em;
+  background-color: white;
+  text-align: center;
+  position: relative;
+}
+
+.card__location {
+  color: #6a6f81;
+}
+
+.card__hr {
+  border-width: 1px;
+  background-color: #969696;
+  opacity: 0.3;
+}
+
+.card__statistics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+
+.card__stat {
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  color: #969696;
+}
+
+.card__counter {
+  color: #2d3248;
+  margin: 0 0 0.25em;
+  font-weight: 700;
+  font-size: 1.3rem;
+  letter-spacing: 0;
+}
+/*# sourceMappingURL=styles.css.map */
